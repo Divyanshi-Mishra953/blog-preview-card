@@ -1,24 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    font-family: "Figtree", sans-serif;
+}
 body {
     width: 960px;
-    height: 1440px;
     background-color: rgb(244, 207, 77);
 }
 .div1 {
     background-color: rgb(255, 255, 255);
-    width: 450px;
-    height: 600px;
-    margin-top: 520px;
-    margin-left: 600px;
+    width: 400px;
+    height: 550px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 55%;
     border-radius: 15px;
+    border: 2px solid black;
     box-shadow: 7px 7px;
 }
 .img1 {
-    padding-top: 25px;
-    width: 400px;
-    padding-left: 25px;
+    margin-top: 25px;
+    width: 350px;
+    margin-left: 25px;
     border-radius: 15px;
     border-top-left-radius: 15px;
 }
-.text {
+.text1 {
     padding-left: 25px;
+    padding-top: 15px;
+    font-weight: 600;
+}
+.text2 {
+    padding-left: 25px;
+    font-size: 16px;
+    color: rgb(134, 133, 133);
+    font-weight: 500;
+    line-height: 25px;
+}
+.image {
+    padding-left: 25px;
+}
+.h1 {
+    padding-left: 25px;
+    font-weight: 800;
+}
+.heading {
+    margin-left: 25px;
+    padding-left: 10px;
+    padding-right: 8px;
+    width: 70px;
+    height: 26px;
+    background-color: rgb(244, 207, 77);
+    border-radius: 5px;
+}
+.image {
+    padding-top: 30px;
+    font-weight: 800;
+}
+.h4 {
+    font-weight: 900;
+    padding-top: 2px;
 }
